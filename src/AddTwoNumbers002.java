@@ -3,7 +3,7 @@ import java.util.List;
 public class AddTwoNumbers002 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode res = new ListNode(0);
-        ListNode head = res;
+        ListNode head = res;//留住第一个结点
         int jw=0;//进位
         while(l1!=null||l2!=null||jw!=0){
             int var1 = l1==null?0:l1.val;
