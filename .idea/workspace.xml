@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd71511c-2952-4dad-97f4-f7e845b07999" name="Default Changelist" comment="">
+    <list default="true" id="cd71511c-2952-4dad-97f4-f7e845b07999" name="Default Changelist" comment="LengthOfLongestSubstring003">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/TwoSum001.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/TwoSum001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LengthOfLongestSubstring003.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LengthOfLongestSubstring003.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +51,14 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
-  <component name="RunManager" selected="Application.LengthOfLongestSubstring003">
+  <component name="RunManager" selected="Application.FindMedianSortedArrays004">
+    <configuration name="FindMedianSortedArrays004" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FindMedianSortedArrays004" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LengthOfLongestSubstring003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LengthOfLongestSubstring003" />
       <module name="LeetCode" />
@@ -66,6 +75,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindMedianSortedArrays004" />
         <item itemvalue="Application.LengthOfLongestSubstring003" />
         <item itemvalue="Application.TwoSum001" />
       </list>
@@ -95,7 +105,11 @@
       <updated>1594732960811</updated>
       <workItem from="1594732962457" duration="4009000" />
       <workItem from="1594800274224" duration="5512000" />
-      <workItem from="1594866868197" duration="2110000" />
+      <workItem from="1594866868197" duration="2177000" />
+      <workItem from="1594870023553" duration="259000" />
+      <workItem from="1594872450042" duration="1157000" />
+      <workItem from="1594895057501" duration="20000" />
+      <workItem from="1594969577632" duration="3248000" />
     </task>
     <task id="LOCAL-00001" summary="TwoSum001">
       <created>1594736443715</created>
@@ -132,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594805201358</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="LengthOfLongestSubstring003">
+      <created>1594869632129</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1594869632129</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,44 +162,47 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="TwoSum001" />
     <MESSAGE value="AddTwoNumbers002" />
-    <option name="LAST_COMMIT_MESSAGE" value="AddTwoNumbers002" />
+    <MESSAGE value="LengthOfLongestSubstring003" />
+    <option name="LAST_COMMIT_MESSAGE" value="LengthOfLongestSubstring003" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="745" y="8" key="CommitChangelistDialog2" timestamp="1594805200254">
+    <state x="745" y="8" key="CommitChangelistDialog2" timestamp="1594972839939">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="745" y="8" key="CommitChangelistDialog2/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1594972839939" />
     <state x="745" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1594805200254" />
     <state x="935" y="153" key="FileChooserDialogImpl" timestamp="1594736366010">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="935" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594736366010" />
-    <state width="1342" height="187" key="GridCell.Tab.0.bottom" timestamp="1594869284829">
+    <state width="1493" height="123" key="GridCell.Tab.0.bottom" timestamp="1594972047734">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="187" key="GridCell.Tab.0.bottom/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1594869284829" />
+    <state width="1493" height="123" key="GridCell.Tab.0.bottom/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1594972047734" />
     <state width="1342" height="187" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594736979292" />
-    <state width="1342" height="187" key="GridCell.Tab.0.center" timestamp="1594869284829">
+    <state width="1493" height="123" key="GridCell.Tab.0.center" timestamp="1594972047734">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="187" key="GridCell.Tab.0.center/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1594869284829" />
+    <state width="1493" height="123" key="GridCell.Tab.0.center/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1594972047734" />
     <state width="1342" height="187" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594736979292" />
-    <state width="1342" height="187" key="GridCell.Tab.0.left" timestamp="1594869284829">
+    <state width="1493" height="123" key="GridCell.Tab.0.left" timestamp="1594972047733">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="187" key="GridCell.Tab.0.left/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1594869284829" />
+    <state width="1493" height="123" key="GridCell.Tab.0.left/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1594972047733" />
     <state width="1342" height="187" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594736979291" />
-    <state width="1342" height="187" key="GridCell.Tab.0.right" timestamp="1594869284829">
+    <state width="1493" height="123" key="GridCell.Tab.0.right" timestamp="1594972047734">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="187" key="GridCell.Tab.0.right/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1594869284829" />
+    <state width="1493" height="123" key="GridCell.Tab.0.right/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1594972047734" />
     <state width="1342" height="187" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594736979292" />
     <state x="375" y="51" key="SettingsEditor" timestamp="1594736321446">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="375" y="51" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594736321446" />
-    <state x="722" y="145" key="Vcs.Push.Dialog.v2" timestamp="1594805214658">
+    <state x="722" y="145" key="Vcs.Push.Dialog.v2" timestamp="1594869638415">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="722" y="145" key="Vcs.Push.Dialog.v2/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1594869638415" />
     <state x="722" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1594805214658" />
     <state x="948" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594736714883">
       <screen x="0" y="0" width="1536" height="824" />
