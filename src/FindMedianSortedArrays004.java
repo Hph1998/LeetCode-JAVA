@@ -31,8 +31,9 @@ public class FindMedianSortedArrays004 {
         return res;
     }
 
+
     public static void main(String[] args) {
-        int[] nums1 = new int[]{};
+        int[] nums1 = new int[]{1};
         int[] nums2 = new int[]{3,4};
         //findMedianSortedArrays(nums1,nums2);
     }
