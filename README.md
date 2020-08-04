@@ -2,5 +2,5 @@
 
 记录LeetCode解题之路 JAVA
 
-有人一起讨论可以进群啊 我一个人好迷茫
-![Image text](https://raw.githubusercontent.com/Hph1998/LeetCode-JAVA/master/%E4%BA%A4%E6%B5%81%E7%BE%A4.png)
+有一起讨论伙伴可以来我CSDN哦
+https://blog.csdn.net/a792396951
