@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd71511c-2952-4dad-97f4-f7e845b07999" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ThreeSum015.java" afterDir="false" />
+    <list default="true" id="cd71511c-2952-4dad-97f4-f7e845b07999" name="Default Changelist" comment="ThreeSum015">
+      <change afterPath="$PROJECT_DIR$/src/ThreeSumClosest016.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +50,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
   </component>
-  <component name="RunManager" selected="Application.ThreeSum015">
+  <component name="RunManager" selected="Application.ThreeSumClosest016">
     <configuration name="IntToRoman012" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IntToRoman012" />
       <module name="LeetCode" />
@@ -60,13 +60,6 @@
     </configuration>
     <configuration name="LongestCommonPrefix014" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LongestCommonPrefix014" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MaxArea011" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaxArea011" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,13 +79,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreeSumClosest016" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThreeSumClosest016" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreeSumClosest016" />
         <item itemvalue="Application.ThreeSum015" />
         <item itemvalue="Application.LongestCommonPrefix014" />
         <item itemvalue="Application.RomanToInt013" />
         <item itemvalue="Application.IntToRoman012" />
-        <item itemvalue="Application.MaxArea011" />
       </list>
     </recent_temporary>
   </component>
@@ -139,7 +139,8 @@
       <workItem from="1596433368263" duration="6911000" />
       <workItem from="1596526864634" duration="11030000" />
       <workItem from="1596553754075" duration="58000" />
-      <workItem from="1596599510183" duration="10047000" />
+      <workItem from="1596599510183" duration="10829000" />
+      <workItem from="1596683263227" duration="4157000" />
     </task>
     <task id="LOCAL-00001" summary="TwoSum001">
       <created>1594736443715</created>
@@ -267,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596540083638</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="ThreeSum015">
+      <created>1596615212050</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1596615212050</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +297,8 @@
     <MESSAGE value="RomanToInt013" />
     <MESSAGE value="README.md" />
     <MESSAGE value="LongestCommonPrefix014" />
-    <option name="LAST_COMMIT_MESSAGE" value="LongestCommonPrefix014" />
+    <MESSAGE value="ThreeSum015" />
+    <option name="LAST_COMMIT_MESSAGE" value="ThreeSum015" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1596599742227">
@@ -300,34 +309,34 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="378" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1596531730781" />
-    <state x="745" y="8" key="CommitChangelistDialog2" timestamp="1596615200762">
+    <state x="745" y="8" key="CommitChangelistDialog2" timestamp="1596615236549">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="745" y="8" key="CommitChangelistDialog2/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1596615200762" />
+    <state x="745" y="8" key="CommitChangelistDialog2/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1596615236549" />
     <state x="745" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596440172333" />
     <state x="935" y="153" key="FileChooserDialogImpl" timestamp="1594736366010">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="935" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594736366010" />
-    <state width="1493" height="171" key="GridCell.Tab.0.bottom" timestamp="1596614566642">
+    <state width="1493" height="171" key="GridCell.Tab.0.bottom" timestamp="1596688310648">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.0.bottom/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1596614566642" />
+    <state width="1493" height="171" key="GridCell.Tab.0.bottom/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1596688310648" />
     <state width="1493" height="171" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596544932332" />
-    <state width="1493" height="171" key="GridCell.Tab.0.center" timestamp="1596614566642">
+    <state width="1493" height="171" key="GridCell.Tab.0.center" timestamp="1596688310648">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.0.center/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1596614566642" />
+    <state width="1493" height="171" key="GridCell.Tab.0.center/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1596688310648" />
     <state width="1493" height="171" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596544932332" />
-    <state width="1493" height="171" key="GridCell.Tab.0.left" timestamp="1596614566642">
+    <state width="1493" height="171" key="GridCell.Tab.0.left" timestamp="1596688310648">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.0.left/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1596614566642" />
+    <state width="1493" height="171" key="GridCell.Tab.0.left/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1596688310648" />
     <state width="1493" height="171" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596544932332" />
-    <state width="1493" height="171" key="GridCell.Tab.0.right" timestamp="1596614566642">
+    <state width="1493" height="171" key="GridCell.Tab.0.right" timestamp="1596688310648">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.0.right/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1596614566642" />
+    <state width="1493" height="171" key="GridCell.Tab.0.right/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1596688310648" />
     <state width="1493" height="171" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596544932332" />
     <state width="1493" height="252" key="GridCell.Tab.1.bottom" timestamp="1595335026393">
       <screen x="0" y="0" width="1536" height="824" />
@@ -350,10 +359,10 @@
     </state>
     <state x="375" y="51" key="SettingsEditor/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1595056278947" />
     <state x="375" y="51" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594736321446" />
-    <state x="722" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596540088364">
+    <state x="722" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596615217452">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="722" y="145" key="Vcs.Push.Dialog.v2/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1596540088364" />
+    <state x="722" y="145" key="Vcs.Push.Dialog.v2/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1596615217452" />
     <state x="722" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596440179277" />
     <state x="948" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594736714883">
       <screen x="0" y="0" width="1536" height="824" />
