@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd71511c-2952-4dad-97f4-f7e845b07999" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LetterCombinations017.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FourSum018.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +50,14 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
-  <component name="RunManager" selected="Application.LetterCombinations017">
+  <component name="RunManager" selected="Application.FourSum018">
+    <configuration name="FourSum018" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FourSum018" />
+      <module name="LeetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LetterCombinations017" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LetterCombinations017" />
       <module name="LeetCode" />
@@ -60,13 +67,6 @@
     </configuration>
     <configuration name="LongestCommonPrefix014" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LongestCommonPrefix014" />
-      <module name="LeetCode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RomanToInt013" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RomanToInt013" />
       <module name="LeetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,11 +88,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FourSum018" />
         <item itemvalue="Application.LetterCombinations017" />
         <item itemvalue="Application.ThreeSumClosest016" />
         <item itemvalue="Application.ThreeSum015" />
         <item itemvalue="Application.LongestCommonPrefix014" />
-        <item itemvalue="Application.RomanToInt013" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +141,8 @@
       <workItem from="1596553754075" duration="58000" />
       <workItem from="1596599510183" duration="10829000" />
       <workItem from="1596683263227" duration="4354000" />
-      <workItem from="1596697169531" duration="12799000" />
+      <workItem from="1596697169531" duration="14104000" />
+      <workItem from="1596793311791" duration="2656000" />
     </task>
     <task id="LOCAL-00001" summary="TwoSum001">
       <created>1594736443715</created>
@@ -283,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596688690525</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="LetterCombinations017">
+      <created>1596715003093</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1596715003093</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +315,8 @@
     <MESSAGE value="LongestCommonPrefix014" />
     <MESSAGE value="ThreeSum015" />
     <MESSAGE value="ThreeSumClosest016" />
-    <option name="LAST_COMMIT_MESSAGE" value="ThreeSumClosest016" />
+    <MESSAGE value="LetterCombinations017" />
+    <option name="LAST_COMMIT_MESSAGE" value="LetterCombinations017" />
   </component>
   <component name="WindowStateProjectService">
     <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1596599742227">
@@ -318,34 +327,34 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="378" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1596707016020" />
-    <state x="745" y="8" key="CommitChangelistDialog2" timestamp="1596714989299">
+    <state x="745" y="8" key="CommitChangelistDialog2" timestamp="1596715001834">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="745" y="8" key="CommitChangelistDialog2/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1596714989299" />
+    <state x="745" y="8" key="CommitChangelistDialog2/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1596715001834" />
     <state x="745" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1596440172333" />
     <state x="935" y="153" key="FileChooserDialogImpl" timestamp="1594736366010">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="935" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594736366010" />
-    <state width="1344" height="157" key="GridCell.Tab.0.bottom" timestamp="1596714620961">
+    <state width="1344" height="157" key="GridCell.Tab.0.bottom" timestamp="1596799685129">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1344" height="157" key="GridCell.Tab.0.bottom/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1596714620961" />
+    <state width="1344" height="157" key="GridCell.Tab.0.bottom/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1596799685129" />
     <state width="1493" height="171" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596544932332" />
-    <state width="1344" height="157" key="GridCell.Tab.0.center" timestamp="1596714620961">
+    <state width="1344" height="157" key="GridCell.Tab.0.center" timestamp="1596799685129">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1344" height="157" key="GridCell.Tab.0.center/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1596714620961" />
+    <state width="1344" height="157" key="GridCell.Tab.0.center/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1596799685129" />
     <state width="1493" height="171" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596544932332" />
-    <state width="1344" height="157" key="GridCell.Tab.0.left" timestamp="1596714620961">
+    <state width="1344" height="157" key="GridCell.Tab.0.left" timestamp="1596799685129">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1344" height="157" key="GridCell.Tab.0.left/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1596714620961" />
+    <state width="1344" height="157" key="GridCell.Tab.0.left/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1596799685129" />
     <state width="1493" height="171" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596544932332" />
-    <state width="1344" height="157" key="GridCell.Tab.0.right" timestamp="1596714620961">
+    <state width="1344" height="157" key="GridCell.Tab.0.right" timestamp="1596799685129">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1344" height="157" key="GridCell.Tab.0.right/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1596714620961" />
+    <state width="1344" height="157" key="GridCell.Tab.0.right/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1596799685129" />
     <state width="1493" height="171" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596544932332" />
     <state width="1493" height="252" key="GridCell.Tab.1.bottom" timestamp="1595335026393">
       <screen x="0" y="0" width="1536" height="824" />
@@ -368,10 +377,10 @@
     </state>
     <state x="375" y="51" key="SettingsEditor/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1596702871799" />
     <state x="375" y="51" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594736321446" />
-    <state x="722" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596688695599">
+    <state x="722" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596715012318">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="722" y="145" key="Vcs.Push.Dialog.v2/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1596688695599" />
+    <state x="722" y="145" key="Vcs.Push.Dialog.v2/-1920.0.1920.1030/0.0.1536.824@0.0.1536.824" timestamp="1596715012318" />
     <state x="722" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596440179277" />
     <state x="948" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594736714883">
       <screen x="0" y="0" width="1536" height="824" />
